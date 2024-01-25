@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventajas de usar Angular 17</title>
+</head>
+<body>
+    <article>
+        <h1>Ventajas de usar Angular 17</h1>
+        <div>
+            <h2>1. Rendimiento Mejorado</h2>
+            <p>
+                Angular 17 ha mejorado significativamente su rendimiento en comparación con versiones anteriores, lo que se traduce en tiempos de carga más rápidos y una experiencia de usuario más fluida.
+            </p>
+        </div>
+        <div>
+            <h2>2. Actualizaciones Automáticas</h2>
+            <p>
+                Con Angular 17, el proceso de actualización se simplifica gracias a las actualizaciones automáticas. Esto permite a los desarrolladores mantener sus aplicaciones actualizadas con las últimas características y correcciones de seguridad sin problemas.
+            </p>
+        </div>
+        <div>
+            <h2>3. Mejoras en la Productividad</h2>
+            <p>
+                Angular 17 viene con herramientas y características mejoradas que aumentan la productividad del desarrollador. Desde la integración con IDE hasta la optimización del flujo de trabajo, Angular 17 facilita el desarrollo de aplicaciones web complejas.
+            </p>
+        </div>
+        <div>
+            <h2>4. Soporte para PWA y SSR</h2>
+            <p>
+                Angular 17 ofrece soporte integrado para Progressive Web Apps (PWA) y Server-Side Rendering (SSR), lo que permite a los desarrolladores crear aplicaciones web altamente optimizadas y accesibles en diferentes plataformas y dispositivos.
+            </p>
+        </div>
+        <div>
+            <h2>5. Comunidad Activa</h2>
+            <p>
+                Angular cuenta con una comunidad activa y de apoyo que proporciona recursos, tutoriales y soluciones a los desafíos de desarrollo. Esto facilita el aprendizaje y la resolución de problemas para los desarrolladores que trabajan con Angular 17.
+            </p>
+        </div>
+        <h1>hola desde {{ city.toUpperCase() }} </h1>
+        
+        @defer(on viewport){
+            <app-comments></app-comments>
+        }@placeholder {
+            <p>.</p>
+        }@loading {
+            <p>Cargando comentarios..</p>
+        }        
+    </article>
+    <app-user></app-user>
+    <router-outlet />
+</body>
+</html>
+
+    
